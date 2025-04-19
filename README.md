@@ -7,10 +7,10 @@ In this assignment, you will initialize a new project and set up **Tailwind CSS*
 
 ## 📦 Part 1: Initialize Your Project
 
-1. Create a new folder for your project and open it in your terminal:
+1. Clone this repo for your project and open it in your terminal:
    ```bash
-   mkdir tailwind-assignment
-   cd tailwind-assignment
+   git clone 'github clone url'
+   cd installing-tailwind-with-npm
    ```
 
 2. Initialize NPM:
@@ -36,13 +36,14 @@ In this assignment, you will initialize a new project and set up **Tailwind CSS*
 
 ## 🧱 Part 3: Set Up Your Files and Folders
 
-5. Create these folders and files:
+5. Create these folders and files (These are the terminal commands):
    ```bash
    mkdir styles dist
    touch styles/input.css index.html
    ```
 
 6. In `styles/input.css`, paste this code:
+   We are adding the tailwind style classes we want to access in this project
    ```css
    @tailwind base;
    @tailwind components;
@@ -52,6 +53,7 @@ In this assignment, you will initialize a new project and set up **Tailwind CSS*
 ---
 
 ## ⚙️ Part 4: Configure Your Build Script
+We need this script to compile the css we have in tailwind. The build script runs a command that tells Tailwind to take your custom CSS file (with @tailwind directives) and compile it into real, usable CSS that the browser can understand. It watches your files and updates the output every time you make a change.
 
 7. Open `package.json`, find the `"scripts"` section, and add:
 
