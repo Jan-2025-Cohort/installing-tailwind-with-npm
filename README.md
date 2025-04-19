@@ -60,7 +60,7 @@ We need this script to compile the css we have in tailwind. The build script run
 
    ```json
    "scripts": {
-     "build": "npx tailwindcss -i ./styles/input.css -o ./dist/output.css --watch"
+     "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
    }
    ```
 
@@ -77,7 +77,7 @@ We need this script to compile the css we have in tailwind. The build script run
      <meta charset="UTF-8" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <title>Tailwind Assignment</title>
-     <link href="./dist/output.css" rel="stylesheet" />
+     <link href="./src/output.css" rel="stylesheet" />
    </head>
    <body class="bg-gray-100 flex justify-center items-center h-screen">
      <button class="bg-blue-600 text-white font-bold px-6 py-3 rounded hover:bg-blue-700 transition">
