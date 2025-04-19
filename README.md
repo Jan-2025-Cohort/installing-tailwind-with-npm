@@ -30,7 +30,7 @@ Use this page in the tailwind documentation to help with the steps: [https://tai
 
 4. Generate the Tailwind config file:
    ```bash
-   npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+   npx @tailwindcss/cli -i ./styles/input.css -o ./dist/output.css --watch
    ```
 
 ---
@@ -42,10 +42,19 @@ Use this page in the tailwind documentation to help with the steps: [https://tai
    mkdir styles dist
    touch styles/input.css index.html
    ```
+   In Vscode, You can manually make the folders/ files
+      Folders:
+      - styles
+      - dist
 
-6. In `styles/input.css`, paste this code:
+      Files:
+      - styles/input (This means that the input file is inside the styles folder)
+      - index.html
+
+7. In `styles/input.css`, paste this code:
    We are adding the tailwind style classes we want to access in this project
    ```css
+   @import "tailwindcss";
    @tailwind base;
    @tailwind components;
    @tailwind utilities;
@@ -60,7 +69,7 @@ We need this script to compile the css we have in tailwind. The build script run
 
    ```json
    "scripts": {
-     "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+     "build": "npx tailwindcss -i ./styles/input.css -o ./dist/output.css --watch"
    }
    ```
 
