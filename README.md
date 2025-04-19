@@ -3,7 +3,7 @@
 ### 🎯 Objective:
 In this assignment, you will initialize a new project and set up **Tailwind CSS** using **NPM**. By the end, you’ll have a custom Tailwind build that styles a button on a basic webpage.
 
-Use this page in the tailwind documentation to help with the steps: (https://tailwindcss.com/docs/installation/tailwind-cli)[https://tailwindcss.com/docs/installation/tailwind-cli]
+Use this page in the tailwind documentation to help with the steps: [https://tailwindcss.com/docs/installation/tailwind-cli](https://tailwindcss.com/docs/installation/tailwind-cli)
 ---
 
 ## 📦 Part 1: Initialize Your Project
