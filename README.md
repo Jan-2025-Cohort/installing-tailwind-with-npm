@@ -103,7 +103,3 @@ In this assignment, you will initialize a new project and set up **Tailwind CSS*
 - Try changing the button to `bg-green-500` or `bg-red-600`
 - Add `shadow-lg`, `rounded-full`, or `text-xl` for visual flair
 - Add a second styled element below the button
-
----
-
-Let me know if you'd like this converted into a `README.md` file for GitHub or added to your Canva doc!
